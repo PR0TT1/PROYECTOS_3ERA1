@@ -1,6 +1,6 @@
 <?php require_once "./vistas/vista_superior.php" ?>
 
-vista principal.
+Pagina de sobre nosotros.
 
 
 <?php require_once "./vistas/vista_inferior.php" ?>
