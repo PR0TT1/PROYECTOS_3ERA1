@@ -14,7 +14,7 @@
         <img src="./img/logo2.jpg" alt="Logo" height="100">
         <a href="./">WASTEPRO</a>
     </div>
-    </div>
+    
 
     <div class="menu-derecho">
         <div class="menu-container">
