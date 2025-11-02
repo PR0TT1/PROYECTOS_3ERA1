@@ -3,21 +3,21 @@ console.log("Cards Cargado");
 const dataCards = [
     {
         "title": "Juego del año",
-        "url_image": "./img/juego.webp",
+        "url_image": "./img/construccion.png",
         "desc": "El mejor del año, esta vez fue otorgado para un título muy importante lanzado en julio pasado para la consola Nintendo.",
         "cta": "Mostrar más...",
         "link": "./contacto.php"
     },
     {
         "title": "Xbox",
-        "url_image": "./img/xbox.png",
+        "url_image": "./img/limpieza.jpg",
         "desc": "Variedad de nuevos títulos",
         "cta": "Mostrar más...",
         "link": "./xbox.php"
     },
     {
         "title": "Playstation",
-        "url_image": "./img/playstation.jpg",
+        "url_image": "./img/OIP.png",
         "desc": "Muchos juegos exclusivos",
         "cta": "Mostrar más...",
         "link": "./ps5.php"
