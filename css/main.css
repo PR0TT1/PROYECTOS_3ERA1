@@ -10,6 +10,10 @@ menu {
    background-color: black;
    display: flex ;
    flex-direction: row;
+   /*manda el menu arriba estaticamente*/
+   position: fixed;
+top: 0;
+z-index: 1000;
   
 }
 
@@ -35,12 +39,14 @@ menu {
 
 }
 
+
+
    
 
 .menu-derecho {
    width: 100%;
    height: 100%;
-   background-color: #070f01ee;;
+   background-color: #070f01ee;
    display: flex ;
    align-items: center;
    justify-content:flex-end;
@@ -76,6 +82,15 @@ menu {
 /*movil*/
 @media screen and (max-width: 1000px) {
 
+  
+    .menu-izquierdo {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 1001;
+  }
+
+
     .menu-container {
         width: 100%;
         height: 100%;
@@ -108,16 +123,16 @@ menu {
     }
 
     .menu-container.menu-open .menu-normal {
-        padding: 0;
+       display: flex;
         background-color: black;
         z-index: 2;
         width: auto;
         height: auto;
-        display: flex;
+        
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 250px 30px 0 0;
+        margin: 20px 0 0 0;
         padding: 20px;
         border-radius: 20px;
         border: 2px solid white;
@@ -130,6 +145,7 @@ menu {
 .footer {
   background-color: #070f01ee;
   color: #333333;
+  
   padding: 40px 20px;
   font-family: 'Helvetica Neue', sans-serif;
   border-top: 6px double #6662629f;
@@ -224,16 +240,17 @@ menu {
 }
 
 body {
-  height: 100vh;
+  margin: 0;
+  padding: 0;
   display: grid;
   place-items: center;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 main {
-  position: relative;
+  position:relative;
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 100px);
   box-shadow: 0 3px 10px rgba(0,0,0,0.3);
 }
 
@@ -374,3 +391,45 @@ main {
     &:nth-child(6) { left: calc(50% + 420px); opacity: 0; }
   }
 }
+  
+/*sobre-nosotros*/
+.sobre-nosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #f5f5f5;
+  }
+
+.lema {
+  text-align: center;
+  font-family: 'helvetica', sans-serif;
+  font-size: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .sobre-nosotros {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .lema {
+    font-size: 24px;
+    line-height: 1.3;
+    padding: 10px 20px;
+  }
+}
+
+.description {
+    text-align:left;
+    font-family: 'helvetica', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+  }
+  
+.gif-icono {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+  }
+

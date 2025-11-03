@@ -1,6 +1,7 @@
 
 
-<footer class="footer">
+<footer id="contacto" class="footer">
+
   <div class="footer-contenedor">
     <div class="footer-columna">
       <h4>Explora</h4>

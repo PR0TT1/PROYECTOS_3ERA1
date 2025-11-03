@@ -40,55 +40,54 @@
     <li class="item" style="background-image: url('./img/construccion2.jpg');">
       <div class='content'>
         <h2 class='title'>"SERVICIOS DE CONSTRUCCIÓN"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
+        <p class='description'>La construcción es una disciplina que exige precisión, visión y compromiso. 
+        Con años de experiencia en el sector y un equipo altamente capacitado, ofrecemos soluciones constructivas que combinan técnica, eficiencia y estética  </p>
         <button>Read More</button>
       </div>
     </li>
     <li class="item" style="background-image: url('./img/financiero.jpg');">
 
       <div class='content'>
-        <h2 class='title'>"ASESORIA FINANCIERA"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
+        <h2 class='title'>ASESORIA FINANCIERA</h2>
+        <p class='description'>La asesoría financiera es una herramienta clave para impulsar decisiones inteligentes y sostenibles.
+        Nuestro equipo te acompaña en el diseño de soluciones que fortalecen la salud económica de tu negocio y optimizan tus recursos.  </p>
         <button>Read More</button>
       </div>
     </li>
 <li class="item" style="background-image: url('./img/informatica.jpg');">
       <div class='content'>
-        <h2 class='title'>"SERVICIOS INFORMÁTICOS"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
+        <h2 class='title'>SERVICIOS INFORMÁTICOS</h2>
+        <p class='description'> Se ofrecen soluciones informáticas diseñadas para fortalecer
+        la infraestructura de empresas y optimizar sus operaciones diarias.
+        </p>
         <button>Read More</button>
       </div>
     </li>
 <li class="item" style="background-image: url('./img/limp3.jpg');">
       <div class='content'>
-        <h2 class='title'>"SERVICIOS DE LIMPIEZA"</h2>
-        <p class='description'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
+        <h2 class='title'>SERVICIOS DE LIMPIEZA</h2>
+        <p class='description'>Soluciones integrales de limpieza orientadas a mantener entornos laborales, comerciales y residenciales en condiciones óptimas.
+          Nuestro enfoque combina protocolos certificados, personal capacitado y logística eficiente para garantizar resultados consistentes y de alto estándar.
         </p>
         <button>Read More</button>
       </div>
     </li>
 <li class="item" style="background-image: url('./img/cs.jpg');">
       <div class='content'>
-        <h2 class='title'>"CATERING SERVICE"</h2>
+        <h2 class='title'>CATERING SERVICE</h2>
         <p class='description'>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.
+            No solo es comida: es experiencia.
+            Diseñamos soluciones gastronomicas adaptadas a eventos corporativos, celebraciones privadas
+            y necesidades empresariales, cuidando cada detalle desde la presentacion hasta el sabor.
         </p>
         <button>Read More</button>
       </div>
     </li>
 <li class="item" style="background-image: url('./img/legal.jpg');">
       <div class='content'>
-        <h2 class='title'>"The Migration"</h2>
-        <p class='description'> Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
-        praesentium nisi. Id laboriosam ipsam enim.  </p>
+        <h2 class='title'>SERVICIOS LEGALES</h2>
+        <p class='description'> Entendemos que la seguridad jurídica es clave para el crecimiento sostenible.
+        Nuestro equipo legal brinda asesoría estratégica y acompañamiento personalizado para empresas y personas que buscan actuar con confianza y respaldo.  </p>
         <button>Read More</button>
       </div>
     </li>
